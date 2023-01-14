@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --primary: #F2C94C;
-    --black: #333333;
+    --primary: #171714;
+    --white: #efecec;
+    --blood-red: #b92828;
     --width-break:600px
 }
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
-    color: #333333;
+    font-family: 'Delius Unicase', cursive;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: var(--blood-red);
 }
 
 nav {
@@ -37,23 +39,24 @@ textarea {
     font-family: inherit;
 }
 
-button {
+.translate-button {
     background-color: var(--primary);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    font-family: inherit;
+    color: var(--blood-red);
     font-size: large;
 }
 
 
-#translate-output {
+.translate-output {
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
-    max-height: 20vh;
+    max-height: 30vh;
     overflow:scroll;
-    border: 1px solid var(--black);
+    border: 0.5px solid var(--white);
 }
 
 footer {

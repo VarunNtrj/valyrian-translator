@@ -39,7 +39,7 @@ textarea {
     font-family: inherit;
 }
 
-.translate-button {
+button {
     background-color: var(--primary);
     border: none;
     margin: 1rem 0rem;
@@ -50,13 +50,13 @@ textarea {
 }
 
 
-.translate-output {
+#translate-output {
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
-    max-height: 30vh;
+    max-height: 20vh;
     overflow:scroll;
-    border: 0.5px solid var(--white);
+    border: 0.5px solid var(--blood-red);
 }
 
 footer {

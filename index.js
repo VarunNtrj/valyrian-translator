@@ -1,5 +1,3 @@
-
-
 var translateButton = document.querySelector("#translate-button");
 
 translateButton.addEventListener("click", buttonClickHandler)
